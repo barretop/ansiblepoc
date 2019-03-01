@@ -1,0 +1,6 @@
+- name: PLay Book 1
+  hosts: all
+  tasks:
+    - name: PoC Message
+      debug:
+        msg: "this is a PoC!"
