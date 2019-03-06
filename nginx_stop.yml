@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: ec2-52-53-199-105.us-west-1.compute.amazonaws.com
   tasks:
     - name: stop nginx
       service:
