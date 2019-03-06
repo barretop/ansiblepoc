@@ -1,5 +1,6 @@
 ---
 - hosts: ec2-52-53-199-105.us-west-1.compute.amazonaws.com
+  sudo: True
   tasks:
     - name: stop nginx
       service:
